@@ -23,6 +23,8 @@ class PageWrapper extends Component {
                         </div>
                     </div>
                 </nav>
+                {/* this variable allows me to import all chindren components  */}
+                {this.props.children} 
             </div>
         )
     }

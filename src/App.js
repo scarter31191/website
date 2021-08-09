@@ -1,8 +1,11 @@
 import PageWrapper from './components/PageWrapper';
+import Home from './components/Pages/Home';
 
 function App() {
   return (
-    <PageWrapper />
+    <PageWrapper>
+      <Home />
+    </PageWrapper>
   );
 }
 
