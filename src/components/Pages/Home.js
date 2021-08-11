@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from '../Common/Header'
-
+import Services from '../Common/Services'
 
 
 export class Home extends Component {
@@ -15,6 +15,8 @@ export class Home extends Component {
                     showButton={true}
                     image='/header-bg.jpg'
                 />
+
+                <Services />
             </div>
         )
     }
