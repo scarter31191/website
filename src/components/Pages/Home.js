@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../Common/Header'
 import Services from '../Common/Services'
+import Portfolio from '../Common/Portfolio'
 
 
 export class Home extends Component {
@@ -17,6 +18,7 @@ export class Home extends Component {
                 />
 
                 <Services />
+                <Portfolio />
             </div>
         )
     }
